@@ -1,0 +1,10 @@
+2021-07-03 15:04:04,306 werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 15:04:14,399 root Error occured here
+2021-07-03 15:04:14,416 root name 'search_term' is not defined
+Traceback (most recent call last):
+  File "/Users/deepakmongia/Documents/Data Science/iNeuron/My POCs/Amazon Web Scraper/Pycharm_Amazon_scrape/main.py", line 26, in amazon_product_search_scrape
+    url = get_url(search_term)
+NameError: name 'search_term' is not defined
+2021-07-03 15:04:14,417 werkzeug 127.0.0.1 - - [03/Jul/2021 15:04:14] "[37mPOST /amazon_product_search_comparison HTTP/1.1[0m" 200 -
+2021-07-03 15:06:06,898 werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 15:06:27,846 werkzeug 127.0.0.1 - - [03/Jul/2021 15:06:27] "[37mPOST /amazon_product_search_comparison HTTP/1.1[0m" 200 -
